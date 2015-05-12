@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/ListPatient/api/ListPatient-api.iml" filepath="$USER_HOME$/Desktop/ListPatient/api/ListPatient-api.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/ListPatient/omod/ListPatient-omod.iml" filepath="$USER_HOME$/Desktop/ListPatient/omod/ListPatient-omod.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/basicexample/basicexample.iml" filepath="$USER_HOME$/Desktop/basicexample/basicexample.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/basicexample/api/basicexample-api.iml" filepath="$USER_HOME$/Desktop/basicexample/api/basicexample-api.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/basicexample/omod/basicexample-omod.iml" filepath="$USER_HOME$/Desktop/basicexample/omod/basicexample-omod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openmrs-core/openmrs.iml" filepath="$PROJECT_DIR$/openmrs-core/openmrs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openmrs-core/api/openmrs-api.iml" filepath="$PROJECT_DIR$/openmrs-core/api/openmrs-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openmrs-core/test/openmrs-test.iml" filepath="$PROJECT_DIR$/openmrs-core/test/openmrs-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openmrs-core/tools/openmrs-tools.iml" filepath="$PROJECT_DIR$/openmrs-core/tools/openmrs-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openmrs-core/web/openmrs-web.iml" filepath="$PROJECT_DIR$/openmrs-core/web/openmrs-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openmrs-core/webapp/openmrs-webapp.iml" filepath="$PROJECT_DIR$/openmrs-core/webapp/openmrs-webapp.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="openmrs-webapp:war exploded">
+    <output-path>$PROJECT_DIR$/openmrs-core/webapp/target/openmrs</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="openmrs-webapp" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/openmrs-core/webapp/target/openmrs/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="openmrs-webapp/web/Web" />
+    </root>
+  </artifact>
+</component>
