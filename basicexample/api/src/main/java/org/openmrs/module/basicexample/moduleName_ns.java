@@ -13,27 +13,44 @@
  */
 package org.openmrs.module.basicexample;
 
-import java.io.Serializable;
-import org.openmrs.BaseOpenmrsObject;
 import org.openmrs.BaseOpenmrsMetadata;
+import org.openmrs.BaseOpenmrsObject;
+
+import java.io.Serializable;
 
 /**
  * It is a model class. It should extend either {@link BaseOpenmrsObject} or {@link BaseOpenmrsMetadata}.
  */
 public class moduleName_ns extends BaseOpenmrsObject implements Serializable {
 
-	private static final long serialVersionUID = 1L;
-	
-	private Integer id;
-	
-	@Override
-	public Integer getId() {
-		return id;
-	}
-	
-	@Override
-	public void setId(Integer id) {
-		this.id = id;
-	}
-	
+    private static final long serialVersionUID = 1L;
+    private Integer departmentId;
+    private String name;
+    private String description;
+    public Integer getDepartmentId() {
+        return departmentId;
+    }
+    public void setDepartmentId(Integer departmentId) {
+        this.departmentId = departmentId;
+    }
+    @ Override
+    public Integer getId() {
+        return getDepartmentId();
+    }
+    @ Override
+    public void setId(Integer id) {
+        setDepartmentId(id);
+    }
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getDescription() {
+        return description;
+    }
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }

@@ -19,7 +19,7 @@ import org.openmrs.module.basicexample.api.moduleName_nsServiceService;
  *  Database methods for {@link moduleName_nsServiceService}.
  */
 public interface moduleName_nsServiceDAO {
-	
+
 	/*
 	 * Add DAO methods here
 	 */

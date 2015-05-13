@@ -28,9 +28,9 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Transactional
 public interface moduleName_nsServiceService extends OpenmrsService {
-     
+
 	/*
 	 * Add service methods here
-	 * 
+	 *
 	 */
 }

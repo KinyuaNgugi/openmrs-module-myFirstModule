@@ -23,18 +23,18 @@ import org.openmrs.module.basicexample.api.db.moduleName_nsServiceDAO;
  * It is a default implementation of {@link moduleName_nsServiceService}.
  */
 public class moduleName_nsServiceServiceImpl extends BaseOpenmrsService implements moduleName_nsServiceService {
-	
+
 	protected final Log log = LogFactory.getLog(this.getClass());
-	
+
 	private moduleName_nsServiceDAO dao;
-	
+
 	/**
      * @param dao the dao to set
      */
     public void setDao(moduleName_nsServiceDAO dao) {
 	    this.dao = dao;
     }
-    
+
     /**
      * @return the dao
      */
