@@ -1,4 +1,18 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ include file="/WEB-INF/template/include.jsp"%>
+<%@ include file="/WEB-INF/template/header.jsp"%>
+<%@ include file="template/localHeader.jsp"%>
+
+<openmrs:htmlInclude file="/moduleResources/patientdetails/js/jquery.dataTables.js" />
+
+<script type="text/javascript">
+    $j(document).ready(function() {
+        $j('#myTable').dataTable({
+            "bJQueryUI": true,
+            "sPaginationType": "full_numbers"
+        });
+    } );
+</script>
+
 <table id="myTable">
     <thead>
     <tr>
@@ -19,3 +33,4 @@
     </c:forEach>
     </tbody>
 </table>
+<%@ include file="/WEB-INF/template/footer.jsp"%>
